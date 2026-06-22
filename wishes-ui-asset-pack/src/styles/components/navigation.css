@@ -1,0 +1,12 @@
+.topbar {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  border-bottom: 1px solid var(--border-primary);
+  padding: 0 var(--space-5);
+  background: rgba(15, 17, 23, .72);
+  backdrop-filter: blur(12px);
+}
+.breadcrumbs { display: flex; gap: var(--space-2); color: var(--text-muted); font-size: .875rem; }

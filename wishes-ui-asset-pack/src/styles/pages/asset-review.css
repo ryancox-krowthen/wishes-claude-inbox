@@ -1,0 +1,6 @@
+.asset-review-header { display: flex; align-items: center; justify-content: space-between; gap: var(--space-4); }
+.asset-review-title { display: grid; gap: var(--space-2); }
+.badge-row { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+.asset-review-layout { display: grid; grid-template-columns: minmax(320px, 460px) 1fr; gap: var(--space-5); }
+.asset-section-title { color: var(--realm-divine); margin-bottom: var(--space-3); }
+@media (max-width: 1100px) { .asset-review-layout { grid-template-columns: 1fr; } }

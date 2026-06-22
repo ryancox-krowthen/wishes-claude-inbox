@@ -1,0 +1,12 @@
+.panel {
+  background: linear-gradient(180deg, rgba(29, 36, 48, .94), rgba(17, 24, 35, .94));
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+.panel-header, .panel-footer { padding: var(--space-4) var(--space-5); border-color: var(--border-primary); }
+.panel-header { border-bottom: 1px solid var(--border-primary); }
+.panel-content { padding: var(--space-5); }
+.panel-footer { border-top: 1px solid var(--border-primary); color: var(--text-muted); }
+.panel-gold { border-color: var(--border-gold); box-shadow: var(--shadow-gold); }

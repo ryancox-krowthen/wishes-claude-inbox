@@ -1,0 +1,31 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  min-height: 26px;
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-pill);
+  border: 1px solid currentColor;
+  background: color-mix(in srgb, currentColor 14%, transparent);
+  font-size: .8rem;
+  font-weight: 700;
+}
+.badge-realm-universal { color: var(--realm-universal); }
+.badge-realm-divine { color: var(--realm-divine); }
+.badge-realm-astral { color: var(--realm-astral); }
+.badge-realm-spiritual { color: var(--realm-spiritual); }
+.badge-realm-ethereal { color: var(--realm-ethereal); }
+.badge-realm-physical { color: var(--realm-physical); }
+.badge-quality-divine { color: var(--quality-divine); }
+.badge-quality-intelligent { color: var(--quality-intelligent); }
+.badge-quality-growth { color: var(--quality-growth); }
+.badge-quality-legendary { color: var(--quality-legendary); }
+.badge-quality-unique { color: var(--quality-unique); }
+.badge-quality-special { color: var(--quality-special); }
+.badge-quality-rare { color: var(--quality-rare); }
+.badge-quality-a { color: var(--quality-a); }
+.badge-quality-b { color: var(--quality-b); }
+.badge-quality-c { color: var(--quality-c); }
+.badge-quality-d { color: var(--quality-d); }
+.badge-quality-e { color: var(--quality-e); }
+.badge-quality-f { color: var(--quality-f); }

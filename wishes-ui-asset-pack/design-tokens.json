@@ -1,0 +1,48 @@
+{
+  "colors": {
+    "realms": {
+      "universal": "#ffffff",
+      "divine": "#f4d35e",
+      "astral": "#8a6cff",
+      "spiritual": "#48d1cc",
+      "ethereal": "#5ea1ff",
+      "physical": "#63c174"
+    },
+    "qualities": {
+      "divine": "#ffd700",
+      "intelligent": "#00e5ff",
+      "growth": "#66bb6a",
+      "legendary": "#ff9800",
+      "unique": "#9c27b0",
+      "special": "#e91e63",
+      "rare": "#2196f3",
+      "a": "#4caf50",
+      "b": "#8bc34a",
+      "c": "#cddc39",
+      "d": "#ffc107",
+      "e": "#ff7043",
+      "f": "#9e9e9e"
+    }
+  },
+  "spacing": {
+    "space-1": "4px",
+    "space-2": "8px",
+    "space-3": "12px",
+    "space-4": "16px",
+    "space-5": "24px",
+    "space-6": "32px",
+    "space-7": "48px",
+    "space-8": "64px"
+  },
+  "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "20px"
+  },
+  "fonts": {
+    "heading": "Cinzel",
+    "body": "Inter",
+    "mono": "JetBrains Mono"
+  }
+}

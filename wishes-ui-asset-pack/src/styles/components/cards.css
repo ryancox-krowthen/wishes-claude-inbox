@@ -1,0 +1,18 @@
+.card {
+  background: var(--surface-primary);
+  border: 1px solid var(--border-primary);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+.card:hover { border-color: var(--border-secondary); box-shadow: var(--shadow-md); }
+.card-header, .card-content, .card-footer { padding: var(--space-4); }
+.card-header { border-bottom: 1px solid var(--border-primary); }
+.card-footer { border-top: 1px solid var(--border-primary); color: var(--text-muted); }
+.character-card { display: grid; grid-template-columns: 180px 1fr; gap: var(--space-4); }
+.card-art {
+  min-height: 240px;
+  border-radius: var(--radius-md);
+  background: linear-gradient(135deg, rgba(94, 161, 255, .18), rgba(138, 108, 255, .16)), var(--bg-tertiary);
+  border: 1px solid var(--border-primary);
+}

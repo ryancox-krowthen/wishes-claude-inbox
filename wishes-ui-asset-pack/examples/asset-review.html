@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wishes Asset Review Example</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../src/styles/index.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">Wishes</div>
+      <nav class="nav-list">
+        <a class="nav-link" href="#">Dashboard</a>
+        <a class="nav-link" href="#">Characters</a>
+        <a class="nav-link active" href="#">Assets</a>
+        <a class="nav-link" href="#">Cards</a>
+        <a class="nav-link" href="#">Templates</a>
+      </nav>
+    </aside>
+
+    <main class="main-content page-grid">
+      <section class="panel panel-gold">
+        <div class="panel-content asset-review-header">
+          <div class="asset-review-title">
+            <h1 class="heading-lg">Lyra Aetherwind</h1>
+            <p class="body-md text-secondary">Asset Review • Character Portrait Set</p>
+            <div class="badge-row">
+              <span class="badge badge-realm-astral">Astral</span>
+              <span class="badge badge-realm-ethereal">Ethereal</span>
+              <span class="badge badge-quality-rare">Rare</span>
+              <span class="status approved">Approved</span>
+            </div>
+          </div>
+          <button class="btn btn-primary">Generate Missing Assets</button>
+        </div>
+      </section>
+
+      <section class="asset-review-layout">
+        <article class="asset-panel asset-panel-large">
+          <h2 class="heading-md asset-section-title">Main Portrait</h2>
+          <div class="asset-preview">Portrait Image</div>
+          <div class="asset-meta">
+            <span class="status approved">Approved</span>
+            <span class="mono">v3.2</span>
+          </div>
+        </article>
+
+        <div class="page-grid">
+          <section>
+            <h2 class="heading-md asset-section-title">Established Assets</h2>
+            <div class="asset-grid">
+              <article class="asset-panel"><h3>Full Body</h3><div class="asset-thumbnail">Full Body</div><div class="asset-meta"><span class="status pending">Pending</span><span class="mono">v1.1</span></div></article>
+              <article class="asset-panel"><h3>Card Art</h3><div class="asset-thumbnail">Card Art</div><div class="asset-meta"><span class="status approved">Approved</span><span class="mono">v2.0</span></div></article>
+              <article class="asset-panel"><h3>Icon</h3><div class="asset-thumbnail">Icon</div><div class="asset-meta"><span class="status generated">Generated</span><span class="mono">v1.0</span></div></article>
+              <article class="asset-panel"><h3>Thumbnail</h3><div class="asset-thumbnail">Missing</div><div class="asset-meta"><span class="status missing">Missing</span><span class="mono">—</span></div></article>
+            </div>
+          </section>
+
+          <section class="asset-panel">
+            <h2 class="heading-md asset-section-title">Tactical Sprite Sheet</h2>
+            <div class="sprite-strip">
+              <div class="sprite-cell">Idle</div><div class="sprite-cell">Walk</div><div class="sprite-cell">Attack</div><div class="sprite-cell">Cast</div><div class="sprite-cell">Hurt</div><div class="sprite-cell">Death</div>
+            </div>
+            <div class="asset-meta" style="margin-top: var(--space-3);"><span class="status pending">Pending</span><span class="mono">6 states</span></div>
+          </section>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>

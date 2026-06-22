@@ -1,0 +1,53 @@
+Character Sheet
+Status
+- Health (Pool)
+
+Core Stats
+- Pysical
+  - Might
+  - Dexterity
+  - Consitution
+- Mental
+  - Intelligence
+  - Wit
+  - Judgement
+- Innate
+  - Aptitude
+  - Deception
+- Charaisma
+
+Elements
+- Universal
+  - Universal
+  - Chaos
+  - Order
+  - Time
+- Divine
+  - Divine
+  - Creation
+  - Void
+- Astral
+  - Astral
+  - Light
+  - Dark
+- Spiritual
+  - Spiritual
+  - Fusion
+  - Life
+  - Death
+- Ethereal
+  - Ethereal
+- Physical
+  - Physical
+  - Fire
+  - Metal
+  - Earth
+  - Water
+  - Air
+ 
+Stats
+ - Speed
+ - Interaction (Pool)
+ - Reaction (Pool)
+ - Accuracy
+ - Dodge

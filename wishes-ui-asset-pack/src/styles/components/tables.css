@@ -1,0 +1,6 @@
+.table-wrap { overflow: auto; border: 1px solid var(--border-primary); border-radius: var(--radius-lg); }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: var(--space-3) var(--space-4); border-bottom: 1px solid var(--border-primary); text-align: left; }
+th { color: var(--text-secondary); background: var(--surface-elevated); font-size: .825rem; text-transform: uppercase; letter-spacing: .04em; }
+tr:hover td { background: rgba(111, 168, 255, .06); }
+tr:nth-child(even) td { background: rgba(255, 255, 255, .015); }

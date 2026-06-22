@@ -1,0 +1,16 @@
+h1, h2, h3, h4, h5, h6, .heading-xl, .heading-lg, .heading-md, .heading-sm {
+  font-family: var(--font-heading);
+  letter-spacing: .045em;
+  margin: 0;
+}
+.heading-xl { font-size: clamp(2.25rem, 4vw, 4rem); line-height: 1.05; }
+.heading-lg { font-size: clamp(1.75rem, 3vw, 2.75rem); line-height: 1.1; }
+.heading-md { font-size: clamp(1.25rem, 2vw, 1.75rem); line-height: 1.2; }
+.heading-sm { font-size: 1rem; line-height: 1.25; text-transform: uppercase; }
+.body-lg { font-size: 1.125rem; line-height: 1.7; }
+.body-md { font-size: 1rem; line-height: 1.6; }
+.body-sm { font-size: .875rem; line-height: 1.5; }
+.mono { font-family: var(--font-mono); }
+.text-muted { color: var(--text-muted); }
+.text-secondary { color: var(--text-secondary); }
+.text-gold { color: var(--text-gold); }
